@@ -11961,7 +11961,18 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Universal-2nd-Factor-(U2F)-Hardware-Key">Universal 2nd Factor (U2F) Hardware Key<a class="anchor-link" href="#Universal-2nd-Factor-(U2F)-Hardware-Key">&#182;</a></h2><p><strong>"Universal 2nd Factor (U2F) is an open authentication standard that strengthens and simplifies two-factor authentication (2FA) using specialized Universal Serial Bus (USB) or near-field communication (NFC)..."</strong> -Wikipedia</p>
+<h2 id="Universal-2nd-Factor-(U2F)">Universal 2nd Factor (U2F)<a class="anchor-link" href="#Universal-2nd-Factor-(U2F)">&#182;</a></h2><p><strong>"Universal 2nd Factor (U2F) is an open authentication standard that strengthens and simplifies two-factor authentication (2FA) using specialized Universal Serial Bus (USB) or near-field communication (NFC)..."</strong> -Wikipedia</p>
+<p>Now run by the Fido Alliance...
+<a href="https://fidoalliance.org/">https://fidoalliance.org/</a></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Yubikey-has-U2F,-and-maybe-more">Yubikey has U2F, and maybe more<a class="anchor-link" href="#Yubikey-has-U2F,-and-maybe-more">&#182;</a></h2><p><a href="https://www.yubico.com/why-yubico/how-yubikey-works/">Yubikey protocals</a></p>
 
 </div>
 </div>
@@ -12012,10 +12023,9 @@ a.anchor-link {
 <h2 id="Considerations">Considerations<a class="anchor-link" href="#Considerations">&#182;</a></h2><ol>
 <li>Double-check accounts for hardware key support.</li>
 <li>Double-check your account-supported protocols are supported by the keys.</li>
-<li>If getting a backup key, get the same type.<ol>
+<li>Think about paths to account recovery, avoid achilles heel and circular recovery.</li>
+<li>If getting a backup key, get the same type.</li>
 <li>Shop around. Google, and others are starting to make keys too.</li>
-</ol>
-</li>
 </ol>
 <p><a href="https://www.yubico.com/setup">Read the setup documentation BEFORE buying</a></p>
 
@@ -12029,7 +12039,7 @@ a.anchor-link {
 <h2 id="Gotchyas">Gotchyas<a class="anchor-link" href="#Gotchyas">&#182;</a></h2><ol>
 <li>Mobile is a problem, solutions vary.</li>
 <li>Graceful fallback to other 2nd factor varies by login implementation. </li>
-<li>If you want key-only 2nd factor, know some companies you MUST have SMS too.</li>
+<li>If you want key-only 2nd factor, know some companies make that impossible.</li>
 <li>Sneezing....</li>
 </ol>
 
@@ -12052,7 +12062,22 @@ a.anchor-link {
 <h1 id="Questions?">Questions?<a class="anchor-link" href="#Questions?">&#182;</a></h1>
 </div>
 </div>
+</div><aside class="notes">
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="n">Yubikey</span><span class="o">.</span><span class="n">ipynb</span> <span class="o">--</span><span class="n">to</span> <span class="n">slides</span> <span class="o">--</span><span class="n">post</span> <span class="n">serve</span>
+</pre></div>
+
 </div>
+</div>
+</div>
+
+</div>
+</aside></section></section>
 </div>
 </div>
 
